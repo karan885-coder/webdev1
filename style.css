@@ -1,0 +1,132 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    text-transform:capitalize;
+    font-family :cursive;
+}
+.border{
+    border-radius: 10px;
+}
+.white-font {
+    color: white; 
+    font-size: 2.8rem;
+    font-family:'Material Symbols Outlined';
+    font-weight: normal;
+    font-style: normal;
+    letter-spacing: normal;
+    display:flex;
+    justify-content: center;
+    line-height: 9;
+
+  
+}
+
+ 
+
+.black-font {
+    color:black; 
+    font-size: 2.8rem;
+    font-family:'Material Symbols Outlined';
+    font-weight: normal;
+    font-style: normal;
+    letter-spacing: normal;
+    display:flex;
+    justify-content: center;
+    line-height: 9;
+
+  
+}
+ 
+.container{
+    
+    display: flex;
+    flex-direction: column;
+    max-width: 70vw;
+    margin: 55px auto;
+     gap: 15px;
+     height: 77vh;
+     display: flex;
+     background: black;
+     padding: 25px 20px;
+
+
+}
+.upperbox{
+    
+    height: 55vh;
+    display: grid;
+    grid-template-columns: 1fr 1.5fr 1fr;
+    gap: 15px;
+
+}
+.upperbox .upbox1{
+    background-color: rgb(191, 36, 36);
+}
+.upperbox .upbox2{
+    
+    display: grid;
+    grid-template-rows: 1fr 1.5fr;
+}
+ .upbox2 .num{
+    background-color: rgb(238, 213, 168);
+    color: black;
+    text-align: center;
+    line-height: 5.5;
+    font-size: 1.8rem;
+    font-weight: 900;
+    text-shadow: -4px 2px 1px #00000082;
+ }
+ .upbox2 .content{
+    background-color: black;
+    color: white;
+    text-align: center;
+    line-height: 6.5;
+    font-size: 2.3rem;
+    font-weight: 700;
+    text-shadow:-6px 3px 5px #fdf1f1;
+    
+ }
+.upperbox .upbox3{
+    background-color: rgb(162, 102, 232);
+}
+.lowerbox {
+     
+    height: 20vh;
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    gap: 10px;
+}
+.lowerbox .lowbox1 {
+    background-color: rgb(103, 238, 103);
+    text-align: center;
+    line-height: 4.5;
+    font-size: 2rem;
+    font-weight: 900;
+    text-shadow: -4px 2px 1px #00000082;
+    display: inline-block;
+   
+}
+.lowerbox .lowbox1 a{
+    background-color: rgb(103, 238, 103);
+    text-align: center;
+    line-height: 4.5;
+    font-size: 2rem;
+    font-weight: 900;
+    text-shadow: -4px 2px 1px #00000082;
+    text-decoration-line: none;
+   
+}
+.lowerbox .lowbox2 {
+    background-color:  rgb(238, 213, 168);
+    text-align: center;
+    line-height: 4.5;
+    font-size: 2rem;
+    font-weight: 900;
+    text-shadow:-4px 2px 1px #00000082;
+    
+}
+.lowerbox .lowbox2 a{
+    text-decoration: none;
+}
