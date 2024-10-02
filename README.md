@@ -1,0 +1,2 @@
+index.html and style.css are the main files whereas index1.html andd css1.html are the files which are linked to main files via anchor tag. I have uploaded both files to show what i have written in these files although
+by clicking on 'Join us' and 'Why choose web dev' it will redirect to me on those web pages which i made using html and css only but to show the code behind those web page i have uploaded both files.
